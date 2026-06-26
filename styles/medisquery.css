@@ -1,5 +1,5 @@
 @media screen and (max-width:576px){
-    .navbar, .nav-link, .teams{
+    .navbar, .nav-link, .teams, .features{
         flex-direction: column;
     }
     .team-img-container{
@@ -24,10 +24,23 @@
         justify-items: center;
     }
 
+   #experience-badge{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#experiecne-year{
+    font-size: 2rem;
+    font-weight: 700;
 }
 
+}
+
+/* mediaum devive response */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-features{
@@ -43,6 +56,18 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
     }
+
+       #experience-badge{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#experiecne-year{
+    font-size: 2rem;
+    font-weight: 700;
+}
 
   
 }
