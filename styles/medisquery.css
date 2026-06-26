@@ -1,5 +1,26 @@
 @media screen and (max-width:576px){
-    .navbar, .nav-link{
+    .navbar, .nav-link, .teams{
         flex-direction: column;
     }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .team-img-container img{
+    width: 100%;
+}
+
+    .our-features{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto
+    }
+    
 }
