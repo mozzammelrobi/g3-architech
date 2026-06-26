@@ -147,3 +147,20 @@ main > section{
     max-width: 540px;
     margin: 0 auto;
 }
+
+
+/* sponsore releted styeles */
+.sponsore-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsore-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.sponsore-companies img {
+    filter: grayscale(100%);
+}

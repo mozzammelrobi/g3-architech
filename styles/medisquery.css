@@ -18,6 +18,12 @@
         justify-items: center;
         gap: 20px;
     }
+    .sponsore-companies{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -26,6 +32,16 @@
     }
     .our-features{
         margin: 50px auto
+    }
+
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+    .sponsore-companies{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
     }
 
   
